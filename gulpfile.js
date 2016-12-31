@@ -1,10 +1,7 @@
-﻿/// <binding AfterBuild='default' Clean='clean' />
-
-var gulp = require('gulp');
+﻿var gulp = require('gulp');
 var mjml = require('gulp-mjml');
 var runSequence = require('run-sequence');
 var del = require('del');
-
 
 gulp.task('clean', function() {
     return del([
