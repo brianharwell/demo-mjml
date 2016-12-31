@@ -1,0 +1,18 @@
+{
+  "name": "demo-mjml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Harwell",
+  "license": "ISC",
+    "devDependencies": {
+        "mjml": "^3.1.1",
+        "gulp": "^3.9.1",
+        "gulp-mjml": "^2.0.0",
+        "del": "^2.2.2",
+        "run-sequence": "^1.2.2"
+    }
+}
